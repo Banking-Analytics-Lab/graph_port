@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --job-name=micari
+#SBATCH --output=prj_graph.out
+#SBATCH --error=prj_graph.err
+#SBATCH --time=8:00:00
+#SBATCH --partition=batch
+#SBATCH --exclusive
+##SBATCH --gres=gpu:2
+##SBATCH --mail-user=krk1g19@soton.ac.uk
+##SBATCH --mail-type=BEGIN,END
+
+
+
+export CUDA_VERSION=11.0
+module load conda
+source /local/software/conda/miniconda-py3/etc/profile.d/conda.sh
+source activate tf_25cu
+module load cuda/$CUDA_VERSION
+export LD_LIBRARY_PATH=~/Downloads/glibc-2.30/build/math/:/mainfs/scratch/krk1g19/.conda/envs/tf_cudf/lib:$LD_LIBRARY_PATH
+export XLA_FLAGS=--xla_gpu_cuda_data_dir=/local/software/cuda/$CUDA_VERSION/
+export CUDA_DIR=/local/software/cuda/$CUDA_VERSION/
+export HYDRA_FULL_ERROR=1 
+
+
+
+
+python src/main.py --config-name EP
