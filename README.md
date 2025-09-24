@@ -57,9 +57,7 @@ To run this project, you will need Python 3.8+ and the packages listed in `requi
 
 This code is the official implementation for the following paper. Please cite our work if you use this code in your research.
 
-**Large-scale Time-Varying Portfolio Optimisation using Graph Attention Networks**\<br /\>
-Korangi, K., Mues, C. and Bravo, C. (2025). \<br /\>
-arXiv preprint arXiv:2407.15532. [https://arxiv.org/abs/2407.15532](https://arxiv.org/abs/2407.15532)
+Korangi, K., Mues, C. and Bravo, C. (2025). **Large-scale Time-Varying Portfolio Optimisation using Graph Attention Networks**. arXiv preprint arXiv:2407.15532. [https://arxiv.org/abs/2407.15532](https://arxiv.org/abs/2407.15532)
 
 ## Contributing
 
@@ -80,7 +78,7 @@ You can find other work from the lab at [Banking-Analytics-Lab](https://github.c
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE](https://opensource.org/license/mit) file for details.
 
 ## Acknowledgments
 
