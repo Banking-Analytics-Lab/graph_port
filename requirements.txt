@@ -1,0 +1,15 @@
+# Core Deep Learning & GNNs
+tensorflow
+spektral
+
+# Data Handling & Numerical Operations
+pandas
+numpy
+scikit-learn
+
+# Network Analysis & Portfolio Optimization
+networkx
+PyPortfolioOpt
+
+# Distance Correlation
+dcor
