@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "graph_port"
+license: MIT
+authors:
+  - family-names: "Korangi"
+    given-names: "Kamesh"
+  - family-names: "Mues"
+    given-names: "Christophe"
+  - family-names: "Bravo"
+    given-names: "Cristián"
+preferred-citation:
+  type: article
+  title: "Large-scale Time-Varying Portfolio Optimisation using Graph Attention Networks"
+  year: 2024
+  journal: "arXiv preprint arXiv:2407.15532"
+  doi: "10.48550/arXiv.2407.15532"
+  url: "https://arxiv.org/abs/2407.15532"
+  authors:
+    - family-names: "Korangi"
+      given-names: "Kamesh"
+    - family-names: "Mues"
+      given-names: "Christophe"
+    - family-names: "Bravo"
+      given-names: "Cristián"

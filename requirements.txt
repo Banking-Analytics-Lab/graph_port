@@ -13,3 +13,17 @@ PyPortfolioOpt
 
 # Distance Correlation
 dcor
+
+# Imported by the code but missing from the list above.
+# The versions used for the paper were not recorded.
+hydra-core
+omegaconf
+tensorflow-addons
+matplotlib
+seaborn
+progressbar2
+pyRserve
+
+# Auxiliary scripts only (src/move_make.py, src/unit test.py)
+moviepy
+quantstats
