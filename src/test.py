@@ -45,7 +45,7 @@ class SingDataset(sp.data.Dataset):
 
 def main():
 
-    path = r"/scratch/krk1g19/Datasets/graph_3y3m"
+    path = os.environ.get("GRAPH_DIR", "data/graph_3y3m")
 
     file_list = glob.glob1(path, "*.npz")
     slist = sorted(file_list, key=file_position)

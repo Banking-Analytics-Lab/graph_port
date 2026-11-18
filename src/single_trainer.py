@@ -26,7 +26,7 @@ from graph_port.utils import CustomSharpe, SharpeLoss
 
 log = logging.getLogger(__name__)
 
-PARENT_DIR = r"/scratch/krk1g19/prj_3/2023"
+PARENT_DIR = os.environ.get("OUTPUT_DIR", ".")
 print("PARENT_DIR: ", PARENT_DIR)
 tf.keras.backend.set_floatx("float32")
 
