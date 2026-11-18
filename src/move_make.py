@@ -1,7 +1,7 @@
 import os
 import moviepy.video.io.ImageSequenceClip
 
-image_folder = r"C:\Users\krk1g19\github\prj_3\Datasets\Graph4Data"
+image_folder = os.environ.get("IMAGE_DIR", "data/Graph4Data")
 fps = 24
 image_files = []
 for i in range(400):
